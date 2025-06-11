@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    #btn{
+        height: 50px;
+        width: 90px;
+        background-color: rgb(21, 135, 229);
+    }
+  </style>
+  <body>
+    <img
+      id="image"
+      src="https://emojiisland.com/cdn/shop/products/Unhappy_Face_Emoji_Icon_ios10_large.png?v=1571606093
+    "
+      alt=""
+    />
+    <button id="btn" onclick="changeImage()">Happy</button>
+
+    <script>
+      //   function changeImage() {
+      //     const head = document.getElementById("Image");
+
+      //     const btn = document.getElementById("btn");
+      //   }
+
+      function changeImage() {
+        const body = document.body;
+
+        const head = document.getElementById("image");
+
+        const btn = document.getElementById("btn");
+        btn.textContent = "UnHappy";
+        image.src =
+          "https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/65532/happy-emoji-clipart-md.png";
+        image.style.height = "500px";
+        btn.style.height = "50px";
+        btn.style.width = "90px";
+        btn.style.backgroundColor = "blue";
+      }
+    </script>
+  </body>
+</html>
